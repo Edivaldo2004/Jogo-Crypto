@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, rgb(5, 5, 97), rgb(7, 7, 134));
+}
+
+.row{
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.navbar{
+    color: aliceblue;
+    width: 70%;
+    font-size: 15px;
+}
+
+.text{
+    text-align: justify;
+    top: 30%;
+    margin-left: 40%;
+}
+
+footer{
+    display: flex;
+    padding: 2px 2px 2px 2px;
+    width: 100%;
+    top: 90%;
+    color: white;
+    background-color: rgb(3, 3, 94);
+    position: relative;
+    position: absolute;
+    gap: 20%
+}
+
+.footer{
+    margin-left: 10%;
+}
+
+.botões{
+ border-radius: 12px;
+ color:aliceblue;
+ background-color: black;
+ padding: 12px;
+ width: 5%;
+ margin-left: 45%;
+ top: 50%
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
