@@ -1,3 +1,54 @@
 body{
     background-image: linear-gradient(to right, rgb(5, 5, 97), rgb(7, 7, 134));
 }
+
+.container{
+ margin-top: 2%;
+ margin-left: 25%;
+ background: url("https://static.vecteezy.com/ti/vetor-gratis/p3/13005047-icone-de-de-descriptografar-vetor.jpg");
+ height: 250px;
+ width: 30%;
+ display: flex;
+ gap: 50%
+}
+
+.row{
+    gap: 50%;
+    margin-left: 12%;
+    color: red
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    height: 5vh;
+    padding: 5vw;
+    color: white
+  }
+
+  #header {
+    font-family: 'Fraunces';
+    font-size: 28px;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+
+  #links2 {
+    margin-top: 25%;
+    min-width: 20vw;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .img {
+    width: 33px;
+    height: 23px;
+
+  }
+
+
+input{
+    padding: 4px 4px 4px 4px;
+}

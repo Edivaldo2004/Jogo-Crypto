@@ -1,8 +1,11 @@
-let res = "Institucionalismo";
+function envie(){
 
-let input = document.getElementById("input").value
+    let res = document.getElementById("res").value;
 
-
-if (input = res){
-    document.getElementById("imprimir_result").innerHTML = "Resposta correta"
+ if (res == "Kpuvkvwekqpcn"){
+    alert("Resposta Correta");
+ }
+ else{
+    alert("Opss, essa não é a resposta");
+ }
 }
